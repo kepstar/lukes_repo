@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.lukes_repo"
+       name="Luke's Repo"
+       version="1.0.0"
+       provider-name="Luke">
+
+    <extension point="xbmc.addon.repository">
+        <dir>
+            <info compressed="false">https://kepstar.github.io/lukes_repo/docs/addons.xml</info>
+            <checksum>https://kepstar.github.io/lukes_repo/docs/addons.xml.md5</checksum>
+            <datadir zip="true">https://kepstar.github.io/lukes_repo/docs/zips/</datadir>
+        </dir>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary>Luke's Kodi Repository</summary>
+        <description>Custom Kodi repository</description>
+        <platform>all</platform>
+    </extension>
+
+</addon>
+</addons>
